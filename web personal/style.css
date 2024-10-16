@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'MiFuenteManga';
+    src: url('fonts/Mangaka.otf') format('opentype');
+}
+
+body {
+    font-family: 'MifuenteManga', sans-serif;
+}
+
+.header-biografia h6 {
+    margin-bottom: 0;
+}
+
+.header-biografia h1 {
+    margin-top: 0;
+}
