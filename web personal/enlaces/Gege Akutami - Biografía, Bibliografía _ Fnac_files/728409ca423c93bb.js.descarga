@@ -1,0 +1,2 @@
+const e=document.getElementById("kameleoonLoadingStyleSheet");if(e){const o="kameleoon-page-invisibility",a="".concat(o,"-start"),t="".concat(o,"-end"),n=()=>{performance.mark(t),performance.measure(o,a,t),e.remove()};performance.mark(a),window.kameleoonDisplayPageTimeOut=setTimeout(n,e.dataset.timeout),window.kameleoonDisplayPage=n}window.kameleoonStartLoadTime=Date.now();
+//# sourceMappingURL=728409ca423c93bb.js.map

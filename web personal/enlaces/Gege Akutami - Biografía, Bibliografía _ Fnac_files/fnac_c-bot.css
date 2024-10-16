@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* este archivo es la copia de prueba 17/01/2023 */
+
+#inbenta-bot-sdk .inbenta-bot__launcher {
+	background-color: #232323;
+}
+
+/*
+#inbenta-bot-sdk .inbenta-bot__chat {
+	width:336px;
+	height: 380px;
+}
+*/
+
+#inbenta-bot-sdk .inbenta-bot__chat {
+    width: 400px;
+    height: 620px;
+}
+
+
+
+#inbenta-bot-sdk .inbenta-bot__chat__header {
+	/*background-color: #fff;*/
+	background-image: url(https://static.fnac-static.com/multimedia/ES/ayuda/chatBot/header/temas/GENERICO/header_chatBot-generico.png);
+	background-repeat:no-repeat;
+	padding: 0px 16px 50px 60px;
+	/*box-shadow: 0 2px 3px 0 rgb(0 0 0 / 16%), 0 3px 12px 0 rgb(0 0 0 / 8%)*/
+	box-shadow: 0 0 0 0 rgb(0 0 0 / 0%), 0 0 0 0 rgb(0 0 0 / 0%);
+	/*height: 102px;*/
+
+	background-color: #292929;
+    height: 30px;
+
+}
+
+#inbenta-bot-sdk .header__title {
+	font-size: 15px;
+    font-weight: 500;
+	/**/
+    margin-top: 49px;
+}
+
+
+.inbenta-bot__bubble .header__actions, .inbenta-bot__chat .header__actions {
+    cursor: pointer;
+    margin-top: 51px ;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .body__wrapper {
+	background-color: #fff;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .messages__message--received .messages__message__content{
+	background-color: #f2f2f2;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .messages__message--sent .messages__message__content{
+	background-color: #fbecbf;
+} 
+
+#inbenta-bot-sdk .messages__message__avatar {
+	background-color: #232323;
+	
+}
+
+#inbenta-bot-sdk .messages__message__content .content__text {
+	font-weight: 500;
+}
+
+/* se cambia icono por avatar ***********************/
+#inbenta-bot-sdk .inbenta-bot__chat .messages__message .inbenta-bot-icon--avatar {
+    color: #fff;
+    font-size: 16.5px;
+	height:24px;
+	width:21px;
+	background-image: url(https://static.fnac-static.com/multimedia/ES/ayuda/chatBot/iconos/avatar-generico-message.png);
+	background-repat:no-repeat;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .messages__message .inbenta-bot-icon--avatar:before {
+    content: ""
+}
+
+/**botones**/
+
+#inbenta-bot-sdk .content__buttons .inbenta-bot-button {
+	background-color: #6c6c6c;
+	border-radius:6px;
+	padding:8px 0;
+}
+
+#inbenta-bot-sdk .content__buttons .inbenta-bot-button:hover {
+	background-color: #e9aa00;
+	border-radius:6px;
+	padding:8px 0;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .content__buttons .inbenta-bot-button {
+	min-width: 55px;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .footer__form__button{
+	color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button {
+	color: #fff;
+}
+#inbenta-bot-sdk .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button:hover {
+	color: #fff;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .content__buttons--multiple-choise .inbenta-bot-button, .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button {
+	font-size:12.5px;
+	padding:10px !important;
+}
+
+/**enlace**/
+
+#inbenta-bot-sdk .inbenta-bot a, .inbenta-bot a:active, .inbenta-bot a:focus {
+	color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot a:hover {
+	color: #6c6c6c;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .content__related__button {
+	color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .content__related__button--active {
+	color: #e9aa00;
+}
+
+
+
+/**cambia azul por mostaza**/
+
+#inbenta-bot-sdk .inbenta-bot-button-secondary.clicked, .inbenta-bot-button-secondary:hover:not([disabled]) {
+  color: #e9aa00;
+}
+#inbenta-bot-sdk .inbenta-bot-button-secondary:active, .inbenta-bot-button-secondary:focus {
+  color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .content__buttons--download .inbenta-bot-button.clicked, .inbenta-bot__bubble .content__buttons--download .inbenta-bot-button:hover:not([disabled]), .inbenta-bot__chat .content__buttons--download .inbenta-bot-button.clicked, .inbenta-bot__chat .content__buttons--download .inbenta-bot-button:hover:not([disabled]) {
+  color:  #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .content__buttons--multiple-choise.clicked, .inbenta-bot__bubble .content__buttons--multiple-choise:hover:not([disabled]), .inbenta-bot__chat .content__buttons--multiple-choise.clicked, .inbenta-bot__chat .content__buttons--multiple-choise:hover:not([disabled]) {
+  color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .content__buttons--multiple-choise .inbenta-bot-button.clicked, .inbenta-bot__bubble .content__buttons--multiple-choise .inbenta-bot-button:hover:not([disabled]), .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button.clicked, .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button:hover:not([disabled]) {
+  color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot-button.clicked, .inbenta-bot--msie-11 .inbenta-bot-button:hover:not([disabled]) {
+  background-color: #e9aa00;
+  color: #fff;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot-button-secondary.clicked, .inbenta-bot--msie-11 .inbenta-bot-button-secondary:active, .inbenta-bot--msie-11 .inbenta-bot-button-secondary:focus, .inbenta-bot--msie-11 .inbenta-bot-button-secondary:hover:not([disabled]) {
+  color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot__launcher:hover {
+  background-color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot__bubble .content__buttons--multiple-choise .inbenta-bot-button.clicked, .inbenta-bot--msie-11 .inbenta-bot__bubble .content__buttons--multiple-choise .inbenta-bot-button:hover:not([disabled]), .inbenta-bot--msie-11 .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button.clicked, .inbenta-bot--msie-11 .inbenta-bot__chat .content__buttons--multiple-choise .inbenta-bot-button:hover:not([disabled]) {
+  color: #e9aa00;
+  background-color: transparent;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot__bubble .content__buttons--download .inbenta-bot-button.clicked, .inbenta-bot--msie-11 .inbenta-bot__bubble .content__buttons--download .inbenta-bot-button:hover:not([disabled]), .inbenta-bot--msie-11 .inbenta-bot__chat .content__buttons--download .inbenta-bot-button.clicked, .inbenta-bot--msie-11 .inbenta-bot__chat .content__buttons--download .inbenta-bot-button:hover:not([disabled]) {
+  color: #e9aa00;
+  background-color: transparent;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot__bubble .content__related-contents .content__related-buttons .content__related__button--active, .inbenta-bot--msie-11 .inbenta-bot__bubble .content__related-contents .content__related-buttons .content__related__button:hover:not([disabled]), .inbenta-bot--msie-11 .inbenta-bot__chat .content__related-contents .content__related-buttons .content__related__button--active, .inbenta-bot--msie-11 .inbenta-bot__chat .content__related-contents .content__related-buttons .content__related__button:hover:not([disabled]) {
+  color: #e9aa00;
+}
+
+#inbenta-bot-sdk .inbenta-bot--msie-11 .inbenta-bot__bubble .footer__form__button:hover:not([disabled]), .inbenta-bot--msie-11 .inbenta-bot__chat .footer__form__button:hover:not([disabled]) {
+  color: #e9aa00;
+  background-color: transparent;
+}
+
+/** alerta/error **/
+
+#inbenta-bot-sdk .inbenta-bot__bubble .alert-box__title, .inbenta-bot__chat .alert-box__title {
+    color: #e9aa00!important;
+}
+#inbenta-bot-sdk .inbenta-bot-button {
+    background-color: var(--secondary,#e9aa00!important);
+}
+
+/** cerrar chat **/
+
+#inbenta-bot-sdk .inbenta-bot__bubble__confirmation .confirmation-box__icon, .inbenta-bot__chat__confirmation .confirmation-box__icon {
+	background-color: #fdf3d7 !important;
+    color: #e9aa00 !important;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat__confirmation .confirmation-box__buttons .inbenta-bot-button {
+	background-color: #e9aa00;
+	
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat__confirmation .confirmation-box__buttons .inbenta-bot-button:hover {
+	background-color: #fac63b;
+	
+}
+
+/** solución avatar y puntos suspensivos pensando en mostaza**/ 
+#inbenta-bot-sdk .inbenta-bot__bubble .footer__chat-activity .activity__dot,.inbenta-bot__chat .footer__chat-activity .activity__dot {
+    background-color: #e9aa00!important;
+}
+#inbenta-bot-sdk.inbenta-bot__bubble .footer__chat-activity .activity__avatar, .inbenta-bot__chat .footer__chat-activity .activity__avatar {
+  background-color: #e9aa00!important;
+}
+
+
+/** solución salto de hora en mensajes al entrar en formulario**/
+#inbenta-bot-sdk .inbenta-bot__bubble .content__status, .inbenta-bot__chat .content__status { display: flex; align-items: center; position: relative!important; bottom: inherit!important; right: inherit!important; }
+
+
+/** tabla artículos **/
+.tbArticulo {border: none!important; border-collapse: collapse; }
+.tbArticulo td, th {text-align: left; height: 2em; line-height: 1.2em; padding:5px;}
+.tbArticulo td {vertical-align: text-top;}
+/*.tbArticulo tr:nth-child(even) {background-color: #fff;}*/
+.tbArticulo tr { background-color: #fff;}
+.tbArticulo th { background-color:#f6bb46; color:#fff; font-size:1em; }
+.tdCaps {font-size:1.2em; font-variant: all-petite-caps; }
+.thArticulo {width:65%;}
+
+
+/** padding caja global reducido **/
+#inbenta-bot-sdk .inbenta-bot__bubble .body__wrapper, .inbenta-bot__chat .body__wrapper { padding: 8px!important;}
+
+/** cambio icono de chatbot - se quita bocadillo y se pone icono operador con cascos */
+#inbenta-bot-sdk .inbenta-bot__launcher__image {/*background-image: url(images/launcher.c3490b2.svg);*/ background-image: url(https://static.fnac-static.com/multimedia/ES/ayuda/chatBot/iconos/ic-bocadillo.png); background-size: 100% 100%; background-repeat: no-repeat;  background-position: 50%; width:34px; height:34px;}
+
+/** cambio icono de chatbot - se quita bocadillo y se pone icono operador con cascos **************************
+#inbenta-bot-sdk .inbenta-bot__launcher__image {/*background-image: url(images/launcher.c3490b2.svg);****** background-image: url(https://static.fnac-static.com/multimedia/ES/ayuda/chatBot/ic-chatBot-atCliente.png); background-size: 100% 100%; background-repeat: no-repeat;  background-position: 50%; width:34px; height:34px;}*/
+
+/** cambio color icono valoración (mano) */
+
+#inbenta-bot-sdk .inbenta-bot__bubble .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button, .inbenta-bot__chat .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button {color: var(--secondary,#f5b027)!important;}
+
+
+#inbenta-bot-sdk .inbenta-bot__bubble .messages__message--received .messages__message__content .inbenta-bot-rating__content, .inbenta-bot__chat .messages__message--received .messages__message__content .inbenta-bot-rating__content {
+    padding: 0 !important;
+    /*color: #7a7a7a;*/
+    border-radius: 0;
+    background: #fbedd2!important;
+    min-height: 36px;
+    padding-left: 5px!important;
+    margin-top: 8px!important;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat .messages__message--received .messages__message__content .inbenta-bot-rating__content__phrase {
+	padding: 8px 4px 8px 5px!important;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button .inbenta-bot-icon,.inbenta-bot__chat .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button .inbenta-bot-icon {
+    font-size: 25px!important;
+}
+
+#inbenta-bot-sdk .inbenta-bot__bubble .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button:hover,.inbenta-bot__chat .messages__message--received .messages__message__content .inbenta-bot-rating__content__buttons .inbenta-bot-button:hover {
+    background: RGB(255,255,255)!important;
+}
+
+
+
+@media (max-width: 480px){
+
+    .inbenta-bot .ui-draggable, .inbenta-bot__bubble, .inbenta-bot__chat {
+        background-color: #292828b5;
+    }
+
+
+div.inbenta-bot__chat {
+    top: initial!important;
+    left: initial!important;
+    right: 0!important;
+    bottom: 70px!important;
+}
+
+
+#inbenta-bot-sdk .header__title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 49px ;
+}
+
+
+.f-overlay {
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    background: rgba(35,35,35,.7);
+    bottom: 0;
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: opacity .2s,visibility 0s .2s;
+    visibility: hidden;
+    z-index: 1449;
+}
+
+#inbenta-bot-sdk .inbenta-bot__launcher {
+    z-index:999!important;
+}
+
+
+
+
+#inbenta-bot-sdk .inbenta-bot__chat {
+    width: 100%;
+    height: 80%;
+    bottom: 0!important;
+}
+
+div.inbenta-bot__chat {
+    top: initial!important;
+    left: initial!important;
+    right: 0!important;
+    bottom: 70px!important;
+}
+
+#inbenta-bot-sdk .inbenta-bot__chat__header {
+    background-color: #232323;
+    height: 30px;
+}
+
+#inbenta-bot-sdk .header__title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 49px ;
+}
+
+.inbenta-bot__bubble .header__actions, .inbenta-bot__chat .header__actions {
+    cursor: pointer;
+    margin-top: 51px;
+}
+
+
+.f-overlay.visible {
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    visibility: visible;
+}
+
+.f-overlay--sidepanel {
+    height: 100%;
+    opacity: .64;
+    position: fixed;
+    z-index: 1555;
+}
+
+
+}
