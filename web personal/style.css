@@ -9,6 +9,7 @@ body {
 
 .header-biografia {
     text-align: center;
+    background-color: gray;
 }
 
 .header-biografia h6 {
@@ -23,4 +24,17 @@ header {
     display: flex;
     align-items: center;
     padding: 20 px;
+}
+
+/* .logo {
+    background-color: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+#circle.logo {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
