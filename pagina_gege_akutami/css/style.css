@@ -63,10 +63,6 @@
     /* Espacio entre enlaces */
 }
 
-.navbar ul li {
-    /* Estilo para cada elemento de la lista */
-}
-
 .navbar ul li a {
     text-decoration: none;
     /* Sin subrayado en los enlaces */
@@ -82,10 +78,6 @@
     color: #f4f4f4;
     /* Color en hover para mejor visibilidad */
 }
-
-Rewrite this code better Certainly ! Here’s a refined version of your CSS code with improved organization,
-comments,
-and a few enhancements for better readability and maintainability: css Edit Copy code
 
 /* Estilos para el encabezado de la biografía o reseñas */
 .header-biografia {
@@ -152,9 +144,7 @@ and a few enhancements for better readability and maintainability: css Edit Copy
     /* Espacio entre enlaces */
 }
 
-.navbar ul li {
-    /* Estilo para cada elemento de la lista */
-}
+/* Estilo para cada elemento de la lista */
 
 .navbar ul li a {
     text-decoration: none;
@@ -172,9 +162,7 @@ and a few enhancements for better readability and maintainability: css Edit Copy
     /* Color en hover para mejor visibilidad */
 }
 
-Rewrite this code better Certainly ! Here’s a refined version of your CSS code with improved organization,
-comments,
-and a few enhancements for better readability and maintainability: css Edit Copy code
+
 
 /* Estilos para el encabezado de la biografía o reseñas */
 .header-biografia {
@@ -241,9 +229,7 @@ and a few enhancements for better readability and maintainability: css Edit Copy
     /* Espacio entre enlaces */
 }
 
-.navbar ul li {
-    /* Estilo para cada elemento de la lista */
-}
+
 
 .navbar ul li a {
     text-decoration: none;
@@ -256,14 +242,6 @@ and a few enhancements for better readability and maintainability: css Edit Copy
     /* Transición suave para el color */
 }
 
-.navbar ul li a:hover {
-    color: #f4f4f4;
-    /* Color en hover para mejor visibilidad */
-}
-
-Rewrite this code better Certainly ! Here’s a refined version of your CSS code with improved organization,
-comments,
-and a few enhancements for better readability and maintainability: css Edit Copy code
 
 /* Estilos para el encabezado de la biografía o reseñas */
 .header-biografia {
@@ -330,9 +308,6 @@ and a few enhancements for better readability and maintainability: css Edit Copy
     /* Espacio entre enlaces */
 }
 
-.navbar ul li {
-    /* Estilo para cada elemento de la lista */
-}
 
 .navbar ul li a {
     text-decoration: none;
