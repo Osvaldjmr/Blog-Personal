@@ -1,26 +1,22 @@
-/* Estilo global */
-
 /* Global Styles */
 @font-face {
     font-family: 'Mangaka';
-    /* Cambiar el nombre de la fuente aquí */
     src: url('../fonts/Mangaka.otf') format('opentype');
-    /* Asegúrate de que la ruta sea correcta */
 }
 
 body {
     font-family: 'Mangaka', sans-serif;
-    /* Aplica la fuente correctamente */
+    /* Apply custom font */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    /* Light grey background */
 }
 
 /* Header Styles */
 .header {
     position: relative;
     background-image: url('../assets/header-background.jpg');
-    /* Asegúrate de tener la imagen de fondo */
     background-size: cover;
     height: 300px;
     color: white;
@@ -37,23 +33,23 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Oscurece la imagen de fondo */
+    /* Semi-transparent overlay */
 }
 
 .header-content {
     position: relative;
     z-index: 1;
-    /* Asegura que el contenido esté encima de la superposición */
+    /* Ensure content is above overlay */
 }
 
 /* Profile Image Styles */
 .profile-img {
     border-radius: 50%;
-    /* Hace que la imagen sea circular */
+    /* Circular image */
     width: 150px;
-    /* Establece el ancho de la imagen del perfil */
+    /* Fixed width */
     height: 150px;
-    /* Establece la altura para consistencia */
+    /* Fixed height */
     background-color: lightblue;
-    /* Color de fondo predeterminado */
+    /* Default background color */
 }
