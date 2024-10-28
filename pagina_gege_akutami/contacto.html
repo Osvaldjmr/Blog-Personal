@@ -4,59 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gege Akutami - Contacto</title>
+    <title>Contacto - Gege Akutami</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Encabezado principal de la página -->
-    <header class="header-biografia">
-        <h6><small>Contacto</small></h6>
-        <h1>Gege Akutami - El gato misterioso</h1>
-        <p>
-            ¿Tienes alguna pregunta o deseas obtener más información sobre Gege Akutami? Llena el formulario a
-            continuación para contactarnos.
-        </p>
-    </header>
-
-    <!-- Menú de navegación -->
-    <nav class="navbar">
+    <nav class="menu-principal">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="biografia.html">Biografía</a></li>
-            <li><a href="portfolio.html">Portafolio</a></li>
-            <li><a href="resenas.html">Reseñas</a></li>
-            <li><a href="lomejor.html">Lo Mejor</a></li>
-            <li><a href="opinion.html">Opinión</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
 
-    <!-- Sección del formulario de contacto -->
-    <main>
-        <section class="contact-form-section">
-            <h2>Formulario de Contacto</h2>
-            <form action="#" method="post" class="contact-form">
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+    <section class="contacto-section">
+        <h2>Contáctanos</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
 
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required
-                    placeholder="Escribe tu mensaje aquí"></textarea>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
 
-                <button type="submit">Enviar Mensaje</button>
-            </form>
-        </section>
-    </main>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2024 Página dedicada a Gege Akutami | Todos los derechos reservados</p>
-    </footer>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
 </body>
 
