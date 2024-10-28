@@ -6,7 +6,8 @@
 }
 
 /* Estilos de navegación */
-.menu-principal {
+.menu-principal,
+.header-barra {
     background-color: #333;
     padding: 10px;
     text-align: center;
@@ -41,7 +42,8 @@
 }
 
 .bio-header img,
-.portafolio-section img {
+.portafolio-section img,
+.header-barra img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
