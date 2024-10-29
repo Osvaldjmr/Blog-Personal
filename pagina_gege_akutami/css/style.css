@@ -4,13 +4,9 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-.menu-principal {
-=======
 /* Estilos de navegación */
 .menu-principal,
 .header-barra {
->>>>>>> 318a2fa8b3be3dbd3b3feb0fdede1bb1fc0b9d7e
     background-color: #333;
     padding: 10px;
     text-align: center;
@@ -44,80 +40,78 @@
 }
 
 .bio-header img,
-<<<<<<< HEAD
-.portafolio-section img {
+<<<<<<< HEAD .portafolio-section img {
     max-width: 15%;
     height: 100px;
-=======
-.portafolio-section img,
-.header-barra img {
-    max-width: 100%;
-    height: auto;
->>>>>>> 318a2fa8b3be3dbd3b3feb0fdede1bb1fc0b9d7e
-    margin-top: 10px;
-    border-radius: 80px;
-}
 
-.contacto-section form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    margin: auto;
-}
+    =======.portafolio-section img,
+    .header-barra img {
+        max-width: 100%;
+        height: auto;
+        >>>>>>>318a2fa8b3be3dbd3b3feb0fdede1bb1fc0b9d7e margin-top: 10px;
+        border-radius: 80px;
+    }
 
-.contacto-section input,
-.contacto-section textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
+    .contacto-section form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 400px;
+        margin: auto;
+    }
 
-.contacto-section button {
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
+    .contacto-section input,
+    .contacto-section textarea {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
 
-.contacto-section button:hover {
-    background-color: #555;
-}
+    .contacto-section button {
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contacto-section button:hover {
+        background-color: #555;
+    }
 
 
-.bio-recuadro {
-    float: right;
-    width: 25%;
-    padding: 15px;
-    margin: 20px;
-    background-color: hsl(0, 23%, 94%);
-    border: 1px solid #ddd;
-    border-radius: 9px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+    .bio-recuadro {
+        float: right;
+        width: 25%;
+        padding: 15px;
+        margin: 20px;
+        background-color: hsl(0, 23%, 94%);
+        border: 1px solid #ddd;
+        border-radius: 9px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-.bio-header {
-    width: 65%;
-    float: left;
-    margin-left: 5%;
-    margin-top: 5%;
-    border: 1px solid;
-    border-radius: 3%;
+    .bio-header {
+        width: 65%;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+        border: 1px solid;
+        border-radius: 3%;
 
-}
+    }
 
-.bio-main {
-    margin: 4%;
-    padding: 0%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: start;
+    .bio-main {
+        margin: 4%;
+        padding: 0%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: start;
 
-}
+    }
 
-body {
-    background-image: url(/pagina_gege_akutami/assets/gege.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+    body {
+        background-image: url(/pagina_gege_akutami/assets/gege.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
