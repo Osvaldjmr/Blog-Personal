@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 .menu-principal {
+=======
+/* Estilos de navegación */
+.menu-principal,
+.header-barra {
+>>>>>>> 318a2fa8b3be3dbd3b3feb0fdede1bb1fc0b9d7e
     background-color: #333;
     padding: 10px;
     text-align: center;
@@ -38,9 +44,16 @@
 }
 
 .bio-header img,
+<<<<<<< HEAD
 .portafolio-section img {
     max-width: 15%;
     height: 100px;
+=======
+.portafolio-section img,
+.header-barra img {
+    max-width: 100%;
+    height: auto;
+>>>>>>> 318a2fa8b3be3dbd3b3feb0fdede1bb1fc0b9d7e
     margin-top: 10px;
     border-radius: 80px;
 }
