@@ -32,9 +32,7 @@
 }
 
 .inicio-header,
-.bio-header,
-.portafolio-section,
-.contacto-section {
+.portafolio-section {
     padding: 20px;
     text-align: center;
 }
@@ -53,6 +51,7 @@
     border-radius: 100%;
 }
 
+/* Formulario de la sección de contacto */
 .contacto-section form {
     display: flex;
     flex-direction: column;
@@ -80,6 +79,7 @@
     background-color: #555;
 }
 
+/* Cuadro de información en biografía */
 .bio-recuadro {
     float: right;
     width: 25%;
@@ -89,27 +89,59 @@
     border: 1px solid #ddd;
     border-radius: 9px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    /* Nivel superior */
 }
 
+/* Cuadro de biografía con posición detrás de bio-recuadro */
 .bio-header {
     width: 65%;
-    float: left;
     margin-left: 5%;
-    margin-top: 5%;
+    padding: 20px;
     border: 1px solid;
     border-radius: 3%;
+    position: relative;
+    z-index: 1;
+    /* Nivel inferior */
 }
 
+/* Contenido principal de la biografía */
 .bio-main {
-    margin: 4%;
-    padding: 0%;
+    margin: 0;
+    padding: 5%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: start;
 }
 
+/* Fondo de página y superposición */
+html,
 body {
-    background-image: url(/pagina_gege_akutami/assets/gege.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 100%;
+    background: url(/pagina_gege_akutami/assets/gege.jpg) center/cover no-repeat fixed;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Ajustes de contraste y fondo en secciones */
+.contacto-section,
+.bio-header,
+.bio-main {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+}
+
+.contacto-section {
+    padding: 85px;
+    text-align: center;
 }
